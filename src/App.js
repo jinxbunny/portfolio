@@ -1,5 +1,7 @@
 import React from 'react';
 import Welcome from './components/Welcome'
+import Work from './components/Work'
+import Contact from './components/Contact'
 import './App.css';
 
 function App() {
