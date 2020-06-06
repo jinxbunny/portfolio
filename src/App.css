@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0px;
+}
+
+.App {
+  text-align: center;
+}
+
+.button {
+  all: unset;
+  background-color: thistle;
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  box-shadow: 3px 3px rgb(87, 77, 87);
+  transition: transform ease-in-out 250ms, box-shadow ease-in-out;
+}
+
+.button:hover {
+  transform: scale (1.125);
+  box-shadow: 0 0 0;
+}
