@@ -1,14 +1,14 @@
 import React, { Component} from 'react';
 
-class Work extends Component {
+class Contact extends Component {
 
     render (){
         return (
         <div className="AppHeader">
-          <h1>Projects</h1>
+          <h1>Contact</h1>
         </div>
       );
     }
 }
 
-export default Work;
+export default Contact;
