@@ -1,0 +1,23 @@
+#navBar {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: aliceblue;
+    font-size: larger;
+    font-size: calc(10px + 2vmin);
+    
+}
+
+#navBar a{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: black;
+    word-spacing: 5px;
+}
+
+#navBar a:hover{
+    color: Silver;
+    text-decoration: none;
+}
