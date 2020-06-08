@@ -6,11 +6,15 @@ class NavBar extends Component {
     render (){
         return (
         <div>
-          <a href="#welcome">Welcome</a>
-          |
-          <a href="#work">Work</a>
-          |
-          <a href="#contact">Contact</a>
+          <div id="linksContainer">
+            <div id="links">
+              <a href="#welcome">Welcome</a>
+              |
+              <a href="#work">Work</a>
+              |
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
         </div>
       );
     }
