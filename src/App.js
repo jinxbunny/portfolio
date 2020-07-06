@@ -3,10 +3,12 @@ import {
   BrowserRouter as Router, Switch, Route, Redirect
 } from "react-router-dom";
 
+import NavBar from './components/NavBar.js'
+
 import Welcome from './components/Welcome'
 import Work from './components/Work'
 import Contact from './components/Contact'
-import NavBar from './components/NavBar.js'
+
 import './App.css';
 
 
