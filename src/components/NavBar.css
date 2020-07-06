@@ -3,30 +3,52 @@
     position: fixed;
     z-index: 1;
     width: 100vw;
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.61);
     font-size: calc(10px + 2vmin);
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Quicksand', sans-serif;
+    border-bottom: solid rgba(255, 255, 255, 0.568) 2px;
 }
 
-#navBar a{
+#navBar a {
     text-decoration: none;
     color: black;
     padding: 10px;
     font-weight: bold;
 }
 
-#navBar a:hover{
-    color: Silver;
+#navBar a:hover {
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-#linksContainer{
+#linksContainer {
     position: absolute;
-    bottom: 0px;
-    
+    bottom: 8px;
+    left: 8px
 }
 
-#links{
-    text-align: center;
+.links ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.modalInfo {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.543);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+}
+
+#infoWindow {
+    min-width: 350px;
+    min-height: 450px;
+    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.719);
+    background-color: cornsilk;
+    margin: 0 auto;
 }

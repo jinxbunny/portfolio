@@ -1,0 +1,30 @@
+#aboutProjects {
+    background-color: #ffffff;
+    font-size: medium;
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+    width: 200px;
+    position: relative;
+    bottom: 20px;
+    pointer-events: none;
+}
+
+.swipeContainer {
+    width: 80vw;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.318);
+    border-radius: 20px;
+    box-shadow: inset 0px 2px 10px #00000090;
+    cursor: grab;
+    height: 360px;
+}
+
+.swipeContainer :active {
+    cursor: grabbing;
+}
+
+#projectBox {
+    display: flex;
+    flex-direction: row;
+}

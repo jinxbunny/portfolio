@@ -1,23 +1,26 @@
-import React, { Component} from 'react';
+import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import './NavBar.css'
 
 class NavBar extends Component {
 
-    render (){
-        return (
-        <div>
-          <div id="linksContainer">
-            <div id="links">
-              <a href="#welcome">Welcome</a>
-              |
-              <a href="#work">Work</a>
-              |
-              <a href="#contact">Contact</a>
-            </div>
+  render() {
+    return (
+      <div>
+        <div id="linksContainer">
+          <div className="links">
+            <ul>
+              <li><Link to="/welcome">Welcome</Link></li>
+                &nbsp;|&nbsp;
+                <li><Link to="/work">Work</Link></li>
+                &nbsp;|&nbsp;
+                <li><Link to="/contact">Contact</Link></li>
+            </ul>
           </div>
         </div>
-      );
-    }
+      </div>
+    );
+  }
 }
 
 export default NavBar;
