@@ -1,40 +1,28 @@
-import React from 'react';
-import {
-  BrowserRouter as Router, Switch, Route, Redirect
-} from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import NavBar from './components/NavBar.js'
+import NavBar from "./components/NavBar";
 
-import Welcome from './components/Welcome'
-import Work from './components/Work'
-import Contact from './components/Contact'
+import Welcome from "./components/Welcome";
+import Work from "./components/Work";
+import Contact from "./components/Contact";
 
-import './App.css';
-
+import "./App.css";
 
 function App() {
   return (
     <Router>
-      <Route path="/">
-        <Redirect to="/welcome" />
-      </Route>
       <div className="App">
         <div id="navBar">
           <NavBar />
         </div>
         <Switch>
-          <Route path="/welcome">
-            <Welcome />
-          </Route>
-          <Route path="/work">
-            <Work />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
+          <Route path="/" exact component={Welcome} />
+          <Route path="/work" component={Work} />
+          <Route path="/contact" component={Contact} />
         </Switch>
       </div>
-    </Router >
+    </Router>
   );
 }
 
