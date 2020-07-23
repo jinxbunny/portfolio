@@ -15,12 +15,12 @@ const ProjectCard = ({ title, pic, techStack, summery, info, liveLink, gitLink, 
         <div id="cardSetup">
             <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
                 <div id="cardFront" onClick={handleClick} className="pBContainer">
-                    <div id="title">
-                        {title}
-                    </div>
                     <div id="imageframe">
                         <div id="image">
-                            <img id="pic" src={pic} alt="user pic" />
+                            <img id="pic" src={pic} alt="pic" />
+                        </div>
+                        <div id="title">
+                            {title}
                         </div>
                     </div>
                     <div>
@@ -45,7 +45,7 @@ const ProjectCard = ({ title, pic, techStack, summery, info, liveLink, gitLink, 
                             <a href={liveLink} target="_blank" rel="noopener noreferrer"><i className="fas fa-globe"></i> Live</a>
                         </div>
                         <div className="linkButtons">
-                            <a href={gitLink} target="_blank" rel="noopener noreferrer"><i className="fab fa-github" ></i> Git Hub</a>
+                            <a href={gitLink} target="_blank" rel="noopener noreferrer"><i className="fab fa-github" ></i> GitHub</a>
                         </div>
                     </div>
                 </div>

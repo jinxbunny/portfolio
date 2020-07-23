@@ -3,7 +3,7 @@
     position: fixed;
     z-index: 1;
     width: 100vw;
-    background-color: rgba(240, 248, 255, 0.61);
+    background-color: rgba(240, 248, 255, 0.84);
     font-size: calc(10px + 2vmin);
     font-family: 'Quicksand', sans-serif;
     border-bottom: solid rgba(255, 255, 255, 0.568) 2px;

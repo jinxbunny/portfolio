@@ -12,9 +12,7 @@ a:active {
   color: inherit;
 }
 
-body {
-  overflow: hidden;
-}
+
 
 p {
   padding: 0px;
@@ -45,4 +43,9 @@ p {
   margin-bottom: auto;
   text-align: center;
   transform: translate(0%, 180px);
+}
+
+#welcomeBox {
+  background-image: url(./img/profile.png);
+  background-size: cover;
 }

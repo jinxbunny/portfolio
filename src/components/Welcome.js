@@ -7,10 +7,9 @@ class Welcome extends Component {
       <div className="AppHeader">
         <div className="fadeIn">
           <div id="welcomeBox" className="boxBox">
-            <div className="content">
-              <h1>Portfolio</h1>
-              <span>Robert Marsh</span>
-            </div>
+            <h1>Robert Marsh</h1>
+            <p>Designer . Developer . Creator</p>
+
           </div>
         </div>
       </div>

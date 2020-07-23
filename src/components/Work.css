@@ -1,13 +1,23 @@
 #aboutProjects {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 1);
     font-size: medium;
     padding: 8px;
     border-radius: 10px;
     color: black;
-    width: 200px;
+    width: 60px;
     position: relative;
     bottom: 20px;
     pointer-events: none;
+    margin: 0 auto;
+}
+
+.workParent {
+    padding-top: 80px;
+}
+
+.dragPic {
+    width: 40px;
+    opacity: 0.50;
 }
 
 .swipeContainer {
@@ -24,7 +34,20 @@
     cursor: grabbing;
 }
 
+.swipeContainer2 {
+    width: 80vw;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 20px;
+    height: 340px;
+}
+
 #projectBox {
     display: flex;
     flex-direction: row;
+}
+
+#siteInfo {
+    padding: 10px 20px 0px 20px;
+    font-size: large;
 }

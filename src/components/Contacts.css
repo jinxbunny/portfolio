@@ -5,3 +5,26 @@
     margin: 0;
     padding: 0;
 }
+
+input[type=text],
+[type=email] {
+    border: 0;
+    border-radius: 0px;
+    box-shadow: 0px;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    margin: 8px, 0px;
+    z-index: 10;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    font-size: 14px;
+    padding: 10px;
+    border: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
