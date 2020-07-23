@@ -14,11 +14,11 @@ class NavBar extends Component {
               </li>
               &nbsp;|&nbsp;
               <li>
-                <Link to="/work">Work</Link>
+                <Link to="/portfolio/work">Work</Link>
               </li>
               &nbsp;|&nbsp;
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/portfolio/contact">Contact</Link>
               </li>
             </ul>
           </div>
