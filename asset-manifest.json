@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f3fc1d64.chunk.css",
-    "main.js": "/portfolio/static/js/main.a30dc448.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a30dc448.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.93ad110f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.93ad110f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
-    "static/js/2.e865bdb7.chunk.js": "/portfolio/static/js/2.e865bdb7.chunk.js",
-    "static/js/2.e865bdb7.chunk.js.map": "/portfolio/static/js/2.e865bdb7.chunk.js.map",
+    "static/js/2.0f76d4fd.chunk.js": "/portfolio/static/js/2.0f76d4fd.chunk.js",
+    "static/js/2.0f76d4fd.chunk.js.map": "/portfolio/static/js/2.0f76d4fd.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.14dd1cb51bfc085070bbc4aad0883e08.js": "/portfolio/precache-manifest.14dd1cb51bfc085070bbc4aad0883e08.js",
+    "precache-manifest.854f4e80669ebd46ec5177824629e026.js": "/portfolio/precache-manifest.854f4e80669ebd46ec5177824629e026.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.f3fc1d64.chunk.css.map": "/portfolio/static/css/main.f3fc1d64.chunk.css.map",
-    "static/js/2.e865bdb7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e865bdb7.chunk.js.LICENSE.txt",
+    "static/js/2.0f76d4fd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0f76d4fd.chunk.js.LICENSE.txt",
     "static/media/anchor.png": "/portfolio/static/media/anchor.c753fc2a.png",
     "static/media/cage.png": "/portfolio/static/media/cage.ac189030.png",
     "static/media/cyberpet.png": "/portfolio/static/media/cyberpet.dc77c19b.png",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fb1b3dac.js",
-    "static/js/2.e865bdb7.chunk.js",
+    "static/js/2.0f76d4fd.chunk.js",
     "static/css/main.f3fc1d64.chunk.css",
-    "static/js/main.a30dc448.chunk.js"
+    "static/js/main.93ad110f.chunk.js"
   ]
 }
