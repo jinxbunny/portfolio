@@ -12,7 +12,7 @@ const Jmkit = () => {
           <a href="https://www.jmkit.com">JMKit.com</a> since 2008
         </h4>
         <p id="siteInfo">
-          Using a variaity of web technologies I've been brining together my
+          Using a variety of web technologies I've been brining together my
           passion for Design - Development - Production - Art - Music
           <br />
           to create a site that can promote creativity and storytelling through

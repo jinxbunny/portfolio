@@ -14,7 +14,7 @@ class NavBar extends Component {
               </li>
               &nbsp;|&nbsp;
               <li>
-                <Link to="/portfolio/work">Work</Link>
+                <Link to="/portfolio/projects">Projects</Link>
               </li>
               &nbsp;|&nbsp;
               <li>

@@ -41,6 +41,7 @@ const ProjectCard = ({
           <div id="title">{title}</div>
           <div>
             <p id="projectInfo">{info}</p>
+            <span id="toolsTitle">Work Tools</span>
             <p id="tools">{tools}</p>
           </div>
           <div id="projectLinks">

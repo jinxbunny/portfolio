@@ -25,12 +25,6 @@ p {
   animation: change 10s ease-in-out infinite;
 }
 
-.boxBox {
-  border: 4px solid white;
-  min-height: 60vh;
-  min-width: 60vh;
-}
-
 .fadeIn {
   -webkit-animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -43,7 +37,20 @@ p {
   transform: translate(0%, 180px);
 }
 
-#welcomeBox {
+.boxBox {
+  border: 4px solid white;
+  min-height: 60vh;
+  min-width: 60vh;
+}
+
+@media (max-width: 550px) {
+  .boxBox {
+    min-height: 90vw;
+    min-width: 90vw;
+  }
+}
+
+.welcomeBox {
   background-image: url(./img/profile.png);
   background-size: cover;
 }
