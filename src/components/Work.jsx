@@ -9,10 +9,10 @@ import "./Work.css";
 //img
 import dragPic from "../img/drag-left.gif";
 
-function createCard(project) {
+function createCard(project, i) {
   return (
     <ProjectCard
-      key={project.id}
+      key={i}
       title={project.title}
       pic={project.pic}
       techStack={project.techStack}
@@ -37,7 +37,9 @@ const Work = () => {
               <div id="projectBox">{AllProjects.map(createCard)}</div>
             </ScrollContainer>
             <div id="aboutProjects">
-              <img className="dragPic" src={dragPic} alt="Drag to see more" />{" "}
+              <div id="dragIcon">
+                <img className="dragPic" src={dragPic} alt="Drag to see more" />
+              </div>
             </div>
             <Jmkit />
           </div>

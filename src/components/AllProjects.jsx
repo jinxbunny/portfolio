@@ -3,7 +3,7 @@ import React from "react";
 import r1 from "../img/slackproject.png";
 import r2 from "../img/dicegame.png";
 import r3 from "../img/cyberpet.png";
-import r4 from "../img/adventurebot.png";
+// import r4 from "../img/adventurebot.png";
 import a from "../img/anchor.png";
 import c from "../img/cage.png";
 
@@ -84,7 +84,7 @@ const AllProjects = [
     ],
     summery: "React JavaScript and CSS",
     info:
-      "A recreatetion of the look and feel of the Slack application using React",
+      "A recreatetion of the look of the Slack application with functioning text input using React",
     liveLink: "https://jinxbunny.github.io/group_slack/",
     gitLink: "https://github.com/jinxbunny/group_slack",
     tools: [

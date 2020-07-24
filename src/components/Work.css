@@ -3,7 +3,6 @@
     font-size: medium;
     padding: 8px;
     border-radius: 10px;
-    color: black;
     width: 60px;
     position: relative;
     bottom: 20px;
@@ -13,11 +12,6 @@
 
 .workParent {
     padding-top: 80px;
-}
-
-.dragPic {
-    width: 40px;
-    opacity: 0.50;
 }
 
 .swipeContainer {
@@ -30,16 +24,55 @@
     height: 340px;
 }
 
-.swipeContainer :active {
-    cursor: grabbing;
-}
-
 .swipeContainer2 {
     width: 80vw;
     border: 3px solid rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.10);
     border-radius: 20px;
-    height: 340px;
+    min-height: 340px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.dragPic {
+    width: 40px;
+    opacity: 0.50;
+}
+
+@media (min-width: 1495px) {
+
+    .swipeContainer {
+        width: 1210px;
+        margin: 0 auto;
+        cursor: default;
+    }
+
+    .swipeContainer2 {
+        width: 1210px;
+        margin: 0 auto;
+        cursor: default;
+        min-height: 340px;
+        margin-bottom: 40px;
+    }
+
+    #aboutProjects {
+        display: none;
+    }
+
+    .swipeContainer {
+        margin-bottom: 20px;
+    }
+}
+
+.contactMe {
+    padding-top: 20%;
+    text-align: center;
+}
+
+.videoGallery img {
+    border-radius: 20px;
+    width: 240px;
+    padding: 10px;
 }
 
 #projectBox {
