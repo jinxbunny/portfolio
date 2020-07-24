@@ -24,7 +24,7 @@ const Jmkit = () => {
         </p>
         <br />
         <p id="siteInfo">
-          Using a variety of web technologies I've been brining together my
+          Using a variety of web technologies I've been bringing together my
           passion for
           <br />
           <br />
