@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7e67fa37.chunk.css",
-    "main.js": "/portfolio/static/js/main.9047152a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9047152a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.ffa0d8c9.chunk.css",
+    "main.js": "/portfolio/static/js/main.947eae49.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.947eae49.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
-    "static/js/2.63c86e53.chunk.js": "/portfolio/static/js/2.63c86e53.chunk.js",
-    "static/js/2.63c86e53.chunk.js.map": "/portfolio/static/js/2.63c86e53.chunk.js.map",
+    "static/js/2.63bdd513.chunk.js": "/portfolio/static/js/2.63bdd513.chunk.js",
+    "static/js/2.63bdd513.chunk.js.map": "/portfolio/static/js/2.63bdd513.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.8c20f8c7969400894aabef94f4ac1618.js": "/portfolio/precache-manifest.8c20f8c7969400894aabef94f4ac1618.js",
+    "precache-manifest.964e92c6ab399032c728fd3f139117c8.js": "/portfolio/precache-manifest.964e92c6ab399032c728fd3f139117c8.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.7e67fa37.chunk.css.map": "/portfolio/static/css/main.7e67fa37.chunk.css.map",
-    "static/js/2.63c86e53.chunk.js.LICENSE.txt": "/portfolio/static/js/2.63c86e53.chunk.js.LICENSE.txt",
+    "static/css/main.ffa0d8c9.chunk.css.map": "/portfolio/static/css/main.ffa0d8c9.chunk.css.map",
+    "static/js/2.63bdd513.chunk.js.LICENSE.txt": "/portfolio/static/js/2.63bdd513.chunk.js.LICENSE.txt",
     "static/media/anchor.png": "/portfolio/static/media/anchor.c753fc2a.png",
     "static/media/cage.png": "/portfolio/static/media/cage.ac189030.png",
     "static/media/cyberpet.png": "/portfolio/static/media/cyberpet.dc77c19b.png",
@@ -24,12 +24,15 @@
     "static/media/react.png": "/portfolio/static/media/react.ed931db8.png",
     "static/media/slackproject.png": "/portfolio/static/media/slackproject.6a064d0a.png",
     "static/media/sql.png": "/portfolio/static/media/sql.132e2241.png",
+    "static/media/video0.png": "/portfolio/static/media/video0.48e11ba9.png",
+    "static/media/video1.png": "/portfolio/static/media/video1.2ee1992d.png",
+    "static/media/video2.png": "/portfolio/static/media/video2.209996ef.png",
     "static/media/vsc.png": "/portfolio/static/media/vsc.f258affb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fb1b3dac.js",
-    "static/js/2.63c86e53.chunk.js",
-    "static/css/main.7e67fa37.chunk.css",
-    "static/js/main.9047152a.chunk.js"
+    "static/js/2.63bdd513.chunk.js",
+    "static/css/main.ffa0d8c9.chunk.css",
+    "static/js/main.947eae49.chunk.js"
   ]
 }
